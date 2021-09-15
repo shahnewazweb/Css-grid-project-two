@@ -1,0 +1,41 @@
+.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.card {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.card__image {
+  width: 100%;
+  display: block;
+}
+.card__content {
+  line-height: 1.5;
+  font-size: 8.9m;
+  padding: 15px;
+  background-color: #fafafa;
+}
+.card__info {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background: #eeeeee;
+  border-bottom: 2px solid #cccccc;
+  color: #555555;
+}
+.card__info i {
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+.card__link {
+  color: #649664;
+  text-decoration: none;
+}
+.card__link:hover {
+  text-decoration: underline;
+}
